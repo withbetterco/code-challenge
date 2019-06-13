@@ -1,0 +1,29 @@
+participant_jane:
+  email: participantjane@testingfake.net
+  f_name: Jane
+  l_name: Doe
+  gender: 2
+  phone: 5005550006
+  zip: 77450
+  current_weight: 165
+  height: 11
+
+participant_richard:
+  email: richardparticipant@testingfake.com
+  f_name: Richard
+  l_name: Stephens
+  gender: 1
+  phone: 5551235555
+  zip: 93001
+  current_weight: 162
+  height: 10
+
+participant_steve:
+  email: steve@testingfake.net
+  f_name: Steven
+  l_name: Bansky
+  gender: 1
+  phone: 5005553006
+  zip: 91384
+  current_weight: 163
+  height: 11
