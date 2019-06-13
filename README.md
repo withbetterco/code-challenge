@@ -21,7 +21,7 @@ Pretend I'm one of your fellow team-members at Better. We just got a requirement
 
 - We need a way to track status of participants.
 - Valid statuses for participants are `pending`, `accepted` and `rejected`
-- The `GET` endpoint listing participants must return only participant with `accepted` status
+- The `GET` endpoint listing participants must return only participants with `accepted` status
 
 ### New features for this challenge
 
