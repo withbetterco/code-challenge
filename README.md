@@ -1,7 +1,7 @@
 # Code challenge
 
 ### Preface
-This is a real-world sample of a code challenge our agency commonly  face. We are trying to get a good idea of how you think as a coder and how you collaborate. We value your skill, taste and ability to self direct and do the work over anything else.
+This is a real-world sample of a code challenge our agency commonly faces. We are trying to get a good idea of how you think as a coder and how you collaborate. We value your skill, taste and ability to self direct and do the work over anything else. Treat this code challenge as if it was a reall assignment and you were working to collaborate with us. 
 
 ### Challenge / Participants Sign in API
 
@@ -48,3 +48,9 @@ Treat it as an open project, our team will collaborate with you to refine the co
 There is a [Pull Request Template](https://github.com/withbetterco/code-challenge/blob/master/PULL_REQUEST_TEMPLATE.md) in the repo as well.
 
 **Although we prefer a public submission - we understand that could be awkward if you are currently employed. If that's the case you can email your submission to john@withbetter.com - please treat it in the same way, an open design challenge we are collaborating on.**
+
+
+### For Questions / Support
+Don't hesitate to open an issue or submit a pull request. 
+
+Main contacts for this project are @johnsalzarulo and @ortegacmanuel 
