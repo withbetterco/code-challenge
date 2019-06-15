@@ -1,4 +1,5 @@
 participant_jane:
+  id: 99
   email: participantjane@testingfake.net
   f_name: Jane
   l_name: Doe
@@ -7,6 +8,7 @@ participant_jane:
   zip: 77450
   current_weight: 165
   height: 11
+  status: 0
 
 participant_richard:
   email: richardparticipant@testingfake.com
@@ -17,6 +19,7 @@ participant_richard:
   zip: 93001
   current_weight: 162
   height: 10
+  status: 1
 
 participant_steve:
   email: steve@testingfake.net
@@ -27,3 +30,4 @@ participant_steve:
   zip: 91384
   current_weight: 163
   height: 11
+  status: 2
