@@ -17,6 +17,8 @@ require "rails/test_unit/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+ActionController::Parameters.action_on_unpermitted_parameters = :raise
+
 module CodeChallenge
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
