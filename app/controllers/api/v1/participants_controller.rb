@@ -10,7 +10,7 @@ module Api::V1
       if create_service.success?
         render json: create_service.success_json
       else
-        render json: create_service.errors_json
+        render json: create_service.errors_json, status: 422
       end
     end
 
