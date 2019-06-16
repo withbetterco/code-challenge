@@ -14,15 +14,29 @@ module Api::V1
       end
     end
 
+    def update
+      update_service.call(id: params[:id], status: participants_params[:status])
+
+      if update_service.success?
+        render json: update_service.success_json
+      else
+        render json: update_service.errors_json, status: 422
+      end
+    end
+
     private
 
     def create_service
       @_create_service ||= Participants::CreateService.new
     end
 
+    def update_service
+      @_update_service ||= Participants::UpdateService.new
+    end
+
     def participants_params
       params.require(:participant).permit(
-        :firstName, :lastName, :phoneNumber, :email, :gender, :currentWeight, :height, :zipCode
+        :firstName, :lastName, :status, :phoneNumber, :email, :gender, :currentWeight, :height, :zipCode
       )
     end
   end
